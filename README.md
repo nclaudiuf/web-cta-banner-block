@@ -1,3 +1,3 @@
-# web-hero-section
+# web-cta-banner-block
 
 Created with CodeSandbox
