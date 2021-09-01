@@ -1,0 +1,89 @@
+/* Functional */
+*:focus {
+	box-shadow: none !important;
+	outline: none;
+}
+*:hover {
+	-webkit-transition: opacity 0.3s ease;
+	-moz-transition: opacity 0.3s ease;
+	transition: opacity 0.3s ease;
+}
+
+.bg-light {
+	background-color: #fafafa !important;
+}
+
+.hide-lg,
+.hide-md,
+.hide-sm {
+	display: inherit;
+}
+@media only screen and (max-width: 992px) {
+	.hide-lg {
+		display: none !important;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.hide-md {
+		display: none !important;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.hide-sm {
+		display: none !important;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.navbar-light {
+		background-color: rgba(255, 215, 23, 0.125) !important;
+		background-color: rgb(255, 215, 23);
+	}
+	.navbar-light .navbar-toggler-icon {
+		background: none;
+	}
+}
+
+.navbar-brand .avatar {
+	width: 60%;
+}
+
+.fs-upper {
+	font-size: 0.75rem;
+}
+
+/* CTA Banner Block */
+.cta-banner {
+	background: rgb(49, 49, 49);
+	background: linear-gradient(
+		-125deg,
+		rgba(49, 49, 49, 1) 0%,
+		rgba(18, 18, 18, 0.9) 45%,
+		rgba(18, 18, 18, 1) 100%
+	) !important;
+}
+
+.icon-image {
+	width: 30%;
+	height: 30%;
+	top: 0;
+	right: 0;
+}
+
+.hover-effect,
+.hover-effect:hover {
+	-webkit-transition: opacity 0.3s ease;
+	-moz-transition: opacity 0.3s ease;
+	transition: opacity 0.3s ease;
+}
+a.hover-effect:hover,
+img.hover-effect:hover {
+	opacity: 0.6;
+}
+
+.wave-line {
+	height: 18px;
+	width: 96%;
+	display: block;
+	opacity: 0.95;
+}
